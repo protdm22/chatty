@@ -33,8 +33,8 @@ const Navbar = () => {
             {authUser && (
               <>
                 <Link to={"/profile"} className='btn btn-sm gap-2'>
-                  <User className='size-5'></User>
-                  <span className='hidden sm:inline'>Profile</span>
+                  <img className='size-5 rounded-full' src={authUser.profilePic || "/avatar.png"}></img>
+                  <span className='hidden sm:inline'>{authUser.fullName}</span>
                 </Link>
 
                 <button className='flex gap-2 items-center' onClick={logout}>
