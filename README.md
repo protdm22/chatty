@@ -1,6 +1,6 @@
 # Chatty
 
-[Live demo here](https://chat-app-tut-cgjw.onrender.com/)
+<a href="https://chat-app-tut-cgjw.onrender.com/" target="_blank">Live demo here</a>
 
 ## Description
 A full-stack real-time chat application allowing multiple users to send messages instantly with authentication and live updates. Developed as a solo project to practice full-stack development with WebSockets and JWT authentication.
